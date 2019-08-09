@@ -1,293 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>My profile</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" bintegrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"
-	/>
-	
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>My profile</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		bintegrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 </head>
+
 <body>
 	<!-- Menu-Moblie -->
-    <div class="menu_mobile">
-    	<div id="mobile-menu-list">
-    		<div class="name_moblie">
-    			<a href="" title="">
-	    			<p id="moblie_name">Nguyễn Văn Dũng</p>
-	    			<p id ="moblie_code">FRONT - END</p>
-    		    </a>
-    		</div>
-    		<div id="right_bar" onclick="myFunction()">
-    			 <i class="fas fa-bars" aria-hidden="true"></i>
-			</div>			
+	<div class="menu_mobile">
+		<div id="mobile-menu-list">
+			<div class="name_moblie">
+				<a href="" title="">
+					<p id="moblie_name">Nguyễn Văn Dũng</p>
+					<p id="moblie_code">FRONT - END</p>
+				</a>
+			</div>
+			<div id="right_bar" onclick="myFunction()">
+				<i class="fas fa-bars" aria-hidden="true"></i>
+			</div>
 		</div>
-		<nav id="main_mobile" >
+		<nav id="main_mobile">
 			<ul>
-			  <li  data-thamso="aboutMe"><a href="#">About Me</a></li>
-			  <li  data-thamso="infoMe"><a  href="#">Resume</a></li>
-			  <li  data-thamso="contactMe"><a href="#">Contact</a></li>
+				<li data-thamso="aboutMe"><a href="#">About Me</a></li>
+				<li data-thamso="infoMe"><a href="#">Resume</a></li>
+				<li data-thamso="contactMe"><a href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
-	
-    <!-- Menu -->
-    <div class="nav-wrapper">
-        <div>
-            <div class="smallava">
-                <img src="images/dung.jpg" alt="" />
-                <p>Văn Dũng</p>
-            </div>
-       </div>
-       <nav id="main">
-            <ul>
-              <li class="declick active" data-thamso="aboutMe"><a href="#">About Me</a></li>
-              <li class="declick" data-thamso="infoMe"><a  href="#">Resume</a></li>
-              <li class="declick" data-thamso="contactMe"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="social">
-            <ul>
-                <li id="github"><a href="" title="" target="_blank">
-                        <p class="social_name">GitHub</p>
-                        <p class="social_link">github.com/DungGit99</p>
-                    </a>
-                </li>
-                <li id="facebook"><a href="https://www.facebook.com/VanDungCode" title="" target="_blank">
-                        <p class="social_name">Facebook</p>
-                        <p class="social_link">www.facebook.com/VanDungCode</p>
-                    </a>
-                </li>
-                <li id="instagram">
-                    <a href="" title="" target="_blank">
-                        <p class="social_name">Instagram</p>
-                        <p class="social_link">www.instagram.com</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-		<!-- About me!!! -->
-		<div class="view ra" id='aboutMe'>
-				<div class="about">				
-						<div class="hinh">
-							<h1>About Me!!!</h1>
-						</div>
-						<div class="intro__second">
-							<p>Welcome to my online profile!!!</p>
-								<p>My name is Nguyen Van Dung . I was born and grew up in Da Nang City, I have just graduated from Duy Tan university width Software Engineering.
-								</p>
-								<p>I like watching and playing football. I’m a careful and hard-working person. I’m eager to learn new things and willing to work in team. </p>
-								<p>I am looking forward to learning
-											   and work in the IT industry, to become a Front-End in the future.</p>
-								<form method="get" action="CV.pdf">
-									<button type="submit">Download CV</button>
-								</form>
-						</div>		 			  
-				</div>
-		</div>	
-			
-		
-    	
-		<!-- Infomation -->
-		<div class="view" id='infoMe'> 
-			<div class="info">
-				<!-- Info-left -->
-			   <div class="info_left">
-				   <div class="info__left--1250px">
-					   <div class="info__avatar info__avatar--1250px">
-						 <img class="text-center" src="images/dung.jpg" />
-					   </div>
-					   <div class="info__name info___name--1250px">
-						 <h2>Nguyễn Văn Dũng</h2>
-					   </div>
-					   <div class="info__desc info__desc--1250px">
-						 <p><i class="fab fa-dev"></i>&nbsp Front-End </p>
-						 <p><i class="fas fa-birthday-cake"></i>&nbsp 09/09/1997</p>
-						 
-						 <p><i class="fas fa-map-marker-alt"></i>&nbsp 106 Ho Quy Ly Street,Da Nang</p>
-						 <p><i class="fas fa-envelope"></i>&nbsp vandungcode@gmail.com</p>
-						 <p><i class="fas fa-phone-square"></i> &nbsp0918316116</p>
-						 <hr />
-					   </div>            
-				   </div>
-				   <!-- Skills -->
-				   <div class="info__skill">
-					   <h2 class="h2--bigger"><i class="fas fa-book-open"></i> Skills</h2>
-					   <div>
-						   <p>HTML5/CSS3</p>
-						   <div class="animation-bar-1">
-							   <span style="width:70%" class="animation-bar-1--70">70%</span>
-						   </div>
-					   </div> 
-					   <div>
-						   <p>Bootstrap</p>
-						   <div class="animation-bar-1">
-							   <span style="width:60%" class="animation-bar-1--60">60%</span>
-						   </div>
-					   </div>                   
-					   <div>
-						   <p>Java</p>
-						   <div class="animation-bar-1">
-							   <span style="width:20%" class="animation-bar-1--20">20%</span>
-						   </div>
-					   </div>
-					   <div>
-						   <p>Javascript</p>
-						   <div class="animation-bar-1">
-							   <span style="width:45%" class="animation-bar-1--45">45%</span>
-						   </div>
-					   </div>
-					   <div>
-						   <p>Jquery</p>
-						   <div class="animation-bar-1">
-							   <span style="width:40%" class="animation-bar-1--40">40%</span>
-						   </div>
-					   </div>
-					   <div>
-						   <p>Ruby On Rails</p>
-						   <div class="animation-bar-1">
-							   <span style="width:10%" class="animation-bar-1--10">10%</span>
-						   </div>
-					   </div>
-				   </div>
-				</div>
-				<!-- Info-right -->
-				 <div class="info__right">
-					 <!-- Education -->
-					 <div class="info__rightbot">
-					   <div>
-							 <h2 >
-							   <i class="fas fa-graduation-cap"></i> Education
-							 </h2>
-					   </div>
-					   <div class="education">
-							 <h3>
-							   <i class="fas fa-circle"></i>
-							   <span class="name_education">Duy Tan University</span>
-							   <span class="calendar">(2015-2019)</span>
-							 </h3>
-							 <h4 class="green-word">             
-							   <p><strong>Graduate</strong> : Software Engineering ( GPA : 2.95/4) </p>
-							 </h4>                 
-					   </div>
-					   <div class="education">
-							 <h3>
-							   <i class="fas fa-circle"></i>
-							   <span class="name_education">Java Course in VinaEnter</span>
-							   <span class="calendar"> (06/2017-12/2017)</span>
-							 </h3>
-						 
-					   </div>
-					  <div class="education">
-							 <h3>
-									<i class="fas fa-circle"></i>
-								   <span class="name_education">Phan Chau Trinh High School</span>
-								   <span class="calendar"> (2012-2015)</span>
-							 </h3>
-					   </div>                
-				   </div>
-				   <!-- work experience -->
-				   <div class="info__rightbot">
-					   <div>
-						 <h2 >
-						  <i class="fas fa-briefcase"></i> Work Experience
-						 </h2>
-					   </div>
-					   <div class="education">
-						 <h3>
-						   <i class="fas fa-circle"></i>
-						   <span class="name_education">CDIO At University</span>
-						   <span class="calendar">(10/2018 - 12/2018)</span>
-						 </h3>
-						 <h4 class="green-word">             
-						   <p><strong>Project</strong> : Xây Dựng Website Bán Sách Online</p>
-						   <p><strong>Form</strong> : Group</p>
-						   <p><strong>Decription</strong> :Build website with Spring, follow MVC model</p>
-						 </h4>                 
-					   </div>
-					   <div class="education">
-						 <h3>
-						   <i class="fas fa-circle"></i>
-						   <span class="name_education">Project VinaEnter</span>
-						   <span class="calendar"> (10/2017-12/2017)</span>
-						 </h3>
-						 <h4 class="green-word">             
-						   <p><strong>Project</strong> : Xây Dựng Website Tin Tức</p>
-						   <p><strong>Form</strong> : Personal</p>
-						   <p><strong>Decription</strong> : Build website with Jsp - servlet, follow MVC model</p>
-						 </h4>  
-					   </div>
-					  <div class="education">
-						 <h3>
-						   <i class="fas fa-circle"></i>
-						   <span class="name_education">Graduate thesis</span>
-						   <span class="calendar"> (02/2019-05/2019)</span>
-						 </h3>
-						 <h4 class="green-word">             
-						   <p><strong>Project</strong> : Xây Dựng Website Đặt Tour Du Lịch</p>
-						   <p><strong>Form</strong> : Group</p>
-						   <p><strong>Decription</strong> : Build website with Ruby on Rails, follow Scrum process ...</p>
-						 </h4>  
-					   </div>                
-				   </div>
-				   <!-- Active -->
-				   <div class="info__rightbot">
-					   <div>
-						 <h2 >
-						  <i class="fas fa-wrench"></i> Active
-						 </h2>
-					   </div>
-					   <div class="education">
-						 <h3>
-						   <i class="fas fa-circle"></i>
-						   <span class="name_education">Little Orient</span>
-						 </h3>
-						 <h4 class="green-word">             
-						   <p><strong>Positon</strong> : Bartender</p>                   
-						 </h4>                 
-					   </div>
-					   <div class="education">
-						 <h3>
-						   <i class="fas fa-circle"></i>
-						   <span class="name_education">GoldenPhoneix</span>
-						 </h3>
-						 <h4 class="green-word">             
-						   <p><strong>Positon</strong> : Casual</p>                 
-						 </h4>  
-					   </div>                        
-				   </div>
-				 </div>
-		   </div>
-		</div>
-		<div class="view" id='contactMe'>
-			<div id="map" >
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d958.4561542183261!2d108.17054532613808!3d16.074588343565175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218e6b5e1acf7%3A0xc620afdfa9e7df33!2zMTA2IEjhu5MgUXXDvSBMeSwgVGhhbmggS2jDqiBUw6J5LCBMacOqbiBDaGnhu4N1LCDEkMOgIE7hurVuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1563958919978!5m2!1svi!2s" width="1050" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<!-- Menu -->
+	<div class="nav-wrapper">
+		<div>
+			<div class="smallava">
+				<img src="images/dung.jpg" alt="" />
+				<p>Văn Dũng</p>
 			</div>
-			<div class="contact_info">
-				<div class="me">
-						<i class="fas fa-phone"></i>
-						<p>0929588983</p>
+		</div>
+		<nav id="main">
+			<ul>
+				<li class="declick active" data-thamso="aboutMe"><a href="#">About Me</a></li>
+				<li class="declick" data-thamso="infoMe"><a href="#">Resume</a></li>
+				<li class="declick" data-thamso="contactMe"><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="social">
+			<ul>
+				<li id="github"><a href="https://github.com/DungGit99" title="" target="_blank">
+						<p class="social_name">GitHub</p>
+					
+					</a>
+				</li>
+				<li id="facebook"><a href="https://www.facebook.com/VanDungCode" title="" target="_blank">
+						<p class="social_name">Facebook</p>
+						
+					</a>
+				</li>
+				<li id="instagram">
+					<a href="https://www.instagram.com/" title="" target="_blank">
+						<p class="social_name">Instagram</p>
+					
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- About me!!! -->
+	<div class="view ra" id='aboutMe'>
+		<div class="about">
+			<div class="hinh">
+				<h1>About Me!!!</h1>
+			</div>
+			<div class="intro__second">
+				<p>Welcome to my online profile!!!</p>
+				<p>My name is Nguyen Van Dung . I was born and grew up in Da Nang City, I have just graduated from Duy
+					Tan university width Software Engineering.
+				</p>
+				<p>I like watching and playing football. I’m a careful and hard-working person. I’m eager to learn new
+					things and willing to work in team. </p>
+				<p>I am looking forward to learning
+					and work in the IT industry, to become a Front-End in the future.</p>
+				<form method="get" action="CV.pdf">
+					<button type="submit">Download CV</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Infomation -->
+	<div class="view" id='infoMe'>
+		<div class="info">
+			<!-- Info-left -->
+			<div class="info_left">
+				<div class="info__left--1250px">
+					<div class="info__avatar ">
+						<img class="text-center" src="images/dung.jpg" />
+					</div>
+					<div class="info__name ">
+						<h2>Nguyễn Văn Dũng</h2>
+					</div>
+					<div class="info__desc info__desc--1250px">
+						<p><i class="fab fa-dev"></i>&nbsp Front-End </p>
+						<p><i class="fas fa-birthday-cake"></i>&nbsp 09/09/1997</p>
+
+						<p><i class="fas fa-map-marker-alt"></i>&nbsp 106 Ho Quy Ly Street,Da Nang</p>
+						<p><i class="fas fa-envelope"></i>&nbsp vandungcode@gmail.com</p>
+						<p><i class="fas fa-phone-square"></i> &nbsp0918316116</p>
+						<hr />
+					</div>
 				</div>
-				<div class="me">
-						<i class="fas fa-map-marker-alt"></i>
-						<p>106 Hồ Quý Ly</p>
+				<!-- Skills -->
+				<div class="info__skill">
+					<h2 class="h2--bigger"><i class="fas fa-book-open"></i> Skills</h2>
+					<div>
+						<p>HTML5/CSS3/REPONSIVE/SASS</p>
+						<div class="animation_skill">
+							<span style="width:70%" class="animation_html">70%</span>
+						</div>
+					</div>
+					<div>
+						<p>Bootstrap4</p>
+						<div class="animation_skill">
+							<span style="width:60%" class="animation_bts">60%</span>
+						</div>
+					</div>
+					<div>
+						<p>Java</p>
+						<div class="animation_skill">
+							<span style="width:20%" class="animation_java">20%</span>
+						</div>
+					</div>
+					<div>
+						<p>Javascript</p>
+						<div class="animation_skill">
+							<span style="width:50%" class="animation_js">50%</span>
+						</div>
+					</div>
+					<div>
+						<p>Jquery</p>
+						<div class="animation_skill">
+							<span style="width:20%" class="animation_jquery">20%</span>
+						</div>
+					</div>
 				</div>
-				<div class="me">
-							<i class="fas fa-envelope"></i>
-							<p>vandungcode@gmail.com</p>
+			</div>
+			<!-- Info-right -->
+			<div class="info__right">
+				<!-- Education -->
+				<div class="info__rightbot">
+					<div>
+						<h2>
+							<i class="fas fa-graduation-cap"></i> Education
+						</h2>
+					</div>
+					<div class="education">
+						<h3>
+							<i class="fas fa-circle"></i>
+							<span class="name_education">Duy Tan University</span>
+							<span class="calendar">(2015-2019)</span>
+						</h3>
+						<h4 class="project">
+							<p><strong>Graduate</strong> : Software Engineering ( GPA : 2.95/4) </p>
+						</h4>
+					</div>
+					<div class="education">
+						<h3>
+							<i class="fas fa-circle"></i>
+							<span class="name_education">Java Course in VinaEnter</span>
+							<span class="calendar"> (06/2017-12/2017)</span>
+						</h3>
+
+					</div>
+					<div class="education">
+						<h3>
+							<i class="fas fa-circle"></i>
+							<span class="name_education">Phan Chau Trinh High School</span>
+							<span class="calendar"> (2012-2015)</span>
+						</h3>
+					</div>
+				</div>
+				<!-- work experience -->
+				<div class="info__rightbot">
+					<div>
+						<h2>
+							<i class="fas fa-briefcase"></i> Work Experience
+						</h2>
+					</div>
+					<div class="education">
+						<h3>
+							<i class="fas fa-circle"></i>
+							<span class="name_education">CDIO At University</span>
+							<span class="calendar">(10/2018 - 12/2018)</span>
+						</h3>
+						<h4 class="project">
+							<p><strong>Project</strong> : Xây Dựng Website Bán Sách Online</p>
+							<p><strong>Form</strong> : Group</p>
+							<p><strong>Decription</strong> :Build website with Spring, follow MVC model</p>
+						</h4>
+					</div>
+					<div class="education">
+						<h3>
+							<i class="fas fa-circle"></i>
+							<span class="name_education">Project VinaEnter</span>
+							<span class="calendar"> (10/2017-12/2017)</span>
+						</h3>
+						<h4 class="project">
+							<p><strong>Project</strong> : Xây Dựng Website Tin Tức</p>
+							<p><strong>Form</strong> : Personal</p>
+							<p><strong>Decription</strong> : Build website with Jsp - servlet, follow MVC model</p>
+						</h4>
+					</div>
+					<div class="education">
+						<h3>
+							<i class="fas fa-circle"></i>
+							<span class="name_education">Graduate thesis</span>
+							<span class="calendar"> (02/2019-05/2019)</span>
+						</h3>
+						<h4 class="project">
+							<p><strong>Project</strong> : Xây Dựng Website Đặt Tour Du Lịch</p>
+							<p><strong>Form</strong> : Group</p>
+							<p><strong>Decription</strong> : Build website with Ruby on Rails, follow Scrum process ...
+							</p>
+						</h4>
+					</div>
+				</div>
+				<!-- Active -->
+				<div class="info__rightbot">
+					<div>
+						<h2>
+							<i class="fas fa-wrench"></i> Active
+						</h2>
+					</div>
+					<div class="education">
+						<h3>
+							<i class="fas fa-circle"></i>
+							<span class="name_education">Little Orient</span>
+						</h3>
+						<h4 class="project">
+							<p><strong>Positon</strong> : Bartender</p>
+						</h4>
+					</div>
+					<div class="education">
+						<h3>
+							<i class="fas fa-circle"></i>
+							<span class="name_education">GoldenPhoneix</span>
+						</h3>
+						<h4 class="project">
+							<p><strong>Positon</strong> : Casual</p>
+						</h4>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-    
-  
-    
+	<div class="view" id='contactMe'>
+		<div id="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d958.4561542183261!2d108.17054532613808!3d16.074588343565175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218e6b5e1acf7%3A0xc620afdfa9e7df33!2zMTA2IEjhu5MgUXXDvSBMeSwgVGhhbmggS2jDqiBUw6J5LCBMacOqbiBDaGnhu4N1LCDEkMOgIE7hurVuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1563958919978!5m2!1svi!2s"
+				 frameborder="0" height="350" width="1100" style="border:0" allowfullscreen></iframe>
+		</div>
+		<div class="contact_info">
+			<div class="me">
+				<i class="fas fa-phone"></i>
+				<p>0929588983</p>
+			</div>
+			<div class="me">
+				<i class="fas fa-map-marker-alt"></i>
+				<p>106 Hồ Quý Ly</p>
+			</div>
+			<div class="me">
+				<i class="fas fa-envelope"></i>
+				<p>vandungcode@gmail.com</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="scroll" >
+        <i class="far fa-hand-point-up"></i>
+    </div>
 
 
-    <script src="js.js"></script>
+
+
+	<script src="js.js"></script>
 </body>
+
 </html>
